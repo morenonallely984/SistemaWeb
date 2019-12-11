@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+nav{
+    margin-top: 0%;
+    background: rgb(172, 235, 95);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+}
+
+header{
+    margin-top: 3px;
+
+}
+
+#container{
+    background: white;
+    padding: 100px;
+    overflow: hidden;
+    margin: 50%;
+}
+
+#info {
+    float: center;
+    width: 80%;
+    margin: 0%;
+    background: white;
+    color: rgb(64, 64, 66);
+    font-family: 'Raleway', sans-serif;
+    font-size: x-small;
+}
+
+#hora{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: #9DDF4E;
+    font-family: 'Oxygen', sans-serif;
+    font-size: large;
+}
+
+#emer{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: rgb(64, 64, 66);
+    font-family: 'Raleway', sans-serif;
+    font-size: x-small
+}
+
+#tel{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: #9DDF4E;
+    font-family: 'Oxygen', sans-serif;
+    font-size: large;
+}
+
+h3{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: rgb(64, 64, 66);
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px
+}
+
+#nuestro{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: #9DDF4E;
+    font-family: 'Oxygen', sans-serif;
+    font-size: large;
+}
+
+#b{
+    float: center;
+    width: 80%;
+    margin: 0%;
+    background: white;
+    color: rgb(64, 64, 66);
+    font-family: 'Raleway', sans-serif;
+    font-size: initial;
+}
+
+@media screen and (max-width: 1000px) {
+    #informacion1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #informacion2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #informacion3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #loguito {
+        float: right;
+    }
+}
+
+#parallax{
+    margin: 0;
+    padding: 0;
+}
+#box1{
+    height: 50vh;
+    width: 100%;
+    background-image: url(img/materialito.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+
+}

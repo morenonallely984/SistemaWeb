@@ -1,0 +1,263 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+
+.navbar{
+    background-color: #AEEA00 !important;
+
+
+}
+.card{
+
+}
+
+
+header{
+    margin-top: 0px;
+
+}
+
+#container{
+    background: white;
+    padding: 100px;
+    overflow: hidden;
+    margin: 50%;
+}
+
+#info {
+    float: center;
+    width: 80%;
+    margin: 0%;
+    background: white;
+    color: rgb(64, 64, 66);
+    font-family: 'Raleway', sans-serif;
+    font-size: x-small;
+}
+
+#hora{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: #9DDF4E;
+    font-family: 'Oxygen', sans-serif;
+    font-size: large;
+}
+
+#emer{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: rgb(64, 64, 66);
+    font-family: 'Raleway', sans-serif;
+    font-size: x-small
+}
+
+#tel{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: #9DDF4E;
+    font-family: 'Oxygen', sans-serif;
+    font-size: large;
+}
+
+h3{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: rgb(64, 64, 66);
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px
+}
+h5{
+  font-family: 'Grand Hotel';
+  font-size: 30px;
+  color: #AAD123;
+}
+
+#nuestro{
+    float: center;
+    width: 100%;
+    margin: 0%;
+    background: white;
+    color: #AAD123;
+    font-family: 'Oxygen', sans-serif;
+    font-size: large;
+}
+
+#b{
+    float: center;
+    width: 80%;
+    margin: 0%;
+    background: white;
+    color: rgb(64, 64, 66);
+    font-family: 'Raleway', sans-serif;
+    font-size: initial;
+}
+
+@media screen and (max-width: 1000px) {
+    #informacion1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #informacion2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #informacion3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #loguito {
+        float: right;
+    }
+}
+
+.divider {
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+#carousel img {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+#mejores{
+  overflow: visible;
+  margin: 0px;
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+}
+
+h1{
+    font-family: arial black;
+    font-size: 50px;
+    color:white;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+h5{
+  font-family: 'Grand Hotel';
+  font-size: 30px;
+  color: #AAD123;
+}
+h5{
+  font-family: 'Grand Hotel';
+  font-size: 30px;
+  color: #AAD123;
+}
+b{
+ font-family: 'Grand Hotel';
+ overflow: visible;
+ margin: 0px;
+ text-align: center;
+ color: rgb(255, 255, 255);
+ font-size: 50px;
+ color: #AAD123;
+}
+h8{
+  font-family: 'Grand Hotel';
+  overflow: visible;
+  margin: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 195px;
+  transition: all 0s ease 0s;
+  min-height: 0px;
+  min-width: 0px;
+  line-height: 200px;
+  border-width: 0px;
+                }
+
+                .modal-body {
+                  position: relative;
+                  -webkit-box-flex: 1;
+                  -ms-flex: 1 1 auto;
+                  flex: 1 1 auto;
+
+
+              }
+              .text-modal{
+              	font-size: 40px;
+              	font-family: 'Raleway', sans-serif;
+              	color: white;
+              }
+              .modal {
+                  display: none; /* Hidden by default */
+                  position: fixed; /* Stay in place */
+                  z-index: 1050; /* Sit on top */
+                  padding-top: 0px; /* Location of the box */
+                  left: 0;
+                  top: 0;
+                  width: 100%; /* Full width */
+                  height: 100%; /* Full height */
+                  overflow: auto; /* Enable scroll if needed */
+                  background-color: rgb(0,0,0); /* Fallback color */
+                  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+              }
+
+/*Servicios*/
+.servicios{
+  width: 100%;
+  height: auto;
+  background: transparent;
+  /*add flexbox style*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.ser{
+  width: 12%;
+  height: 200px;
+  background: #AEEA00;
+  margin: 10px;
+  box-sizing: border-box;
+  font-size: 50px;
+  margin-top: 40px;
+  -webkit-border-radius: 5px 5px 5px 5px; /* recuerda la primera frase */
+  -moz-border-radius: 5px; /* si quieres todas las esquinas iguales */
+  border-radius: 5px;
+  background: rgba(165,224,0,1);
+background: -moz-linear-gradient(top, rgba(165,224,0,1) 0%, rgba(165,224,0,1) 12%, rgba(97,177,22,1) 83%, rgba(97,177,22,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(165,224,0,1)), color-stop(12%, rgba(165,224,0,1)), color-stop(83%, rgba(97,177,22,1)), color-stop(100%, rgba(97,177,22,1)));
+background: -webkit-linear-gradient(top, rgba(165,224,0,1) 0%, rgba(165,224,0,1) 12%, rgba(97,177,22,1) 83%, rgba(97,177,22,1) 100%);
+background: -o-linear-gradient(top, rgba(165,224,0,1) 0%, rgba(165,224,0,1) 12%, rgba(97,177,22,1) 83%, rgba(97,177,22,1) 100%);
+background: -ms-linear-gradient(top, rgba(165,224,0,1) 0%, rgba(165,224,0,1) 12%, rgba(97,177,22,1) 83%, rgba(97,177,22,1) 100%);
+background: linear-gradient(to bottom, rgba(165,224,0,1) 0%, rgba(165,224,0,1) 12%, rgba(97,177,22,1) 83%, rgba(97,177,22,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5e000', endColorstr='#61b116', GradientType=0 );
+  }
+
+/*add responsivemedia quaries*/
+@media screen and (max-width:1200px){
+  .ser{
+    width: 30%;
+  }
+}
+@media screen and (max-width:600px){
+  .ser{
+    width: 50%;
+  }
+}
